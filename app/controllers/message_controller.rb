@@ -9,4 +9,7 @@ class MessageController < ApplicationController
     @messages = Message.all
     render json: @messages
   end
+
+  def main
+  end
 end
